@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotFound /> NotFound test click with Router trigger 1`] = `
+<body>
+  <div>
+    <h1>
+      Not found
+    </h1>
+    <button>
+      Back home page
+    </button>
+  </div>
+</body>
+`;

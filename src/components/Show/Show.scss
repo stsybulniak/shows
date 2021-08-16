@@ -1,0 +1,37 @@
+@import "../../assets/scss/screenVariables.scss";
+
+.Show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    margin-bottom: 3rem;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 65rem;
+      margin-right: 3rem;
+      @media only screen and (max-width: $bp-large) {
+        width: auto;
+        margin-right: 0;
+      }
+    }
+  
+    &-description {
+      width: 120rem;
+      margin-top: 3rem;
+      font-size: 1.6rem;
+
+      @media only screen and (max-width: $bp-large) {
+        width: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EpisodeItemPage /> Render episode item page with erro episodes fetch 1`] = `
+<body>
+  <div>
+    <h3>
+      some error
+    </h3>
+  </div>
+</body>
+`;
+
+exports[`<EpisodeItemPage /> Render episode item page with sucsessfull episodes fetch 1`] = `
+<body>
+  <div>
+    <div
+      class="Episode"
+    >
+      <button
+        class="Episode__backButton"
+      >
+        Back to list
+      </button>
+      <h1>
+        Mini Golf Madness
+      </h1>
+      <img
+        alt="Mini Golf Madness"
+        src="https://static.tvmaze.com/uploads/images/original_untouched/115/288994.jpg"
+      />
+      <div
+        class="Episode__description"
+      >
+        <p>
+          Buttercup takes her game.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+`;

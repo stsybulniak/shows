@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShowPageItem /> Render show item page with faild show fetch 1`] = `
+<body>
+  <div>
+    <h3>
+      Error here
+    </h3>
+  </div>
+</body>
+`;

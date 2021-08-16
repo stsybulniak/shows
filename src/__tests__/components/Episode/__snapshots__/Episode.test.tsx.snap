@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Episode /> Episode matches snapshot with medium image 1`] = `
+<body>
+  <div>
+    <div
+      class="Episode"
+    >
+      <button
+        class="Episode__backButton"
+      >
+        Back to list
+      </button>
+      <h1>
+        Mini Golf Madness
+      </h1>
+      <img
+        alt="Mini Golf Madness"
+        src="https://static.tvmaze.com/uploads/images/medium_landscape/115/288994.jpg"
+      />
+      <div
+        class="Episode__description"
+      >
+        <p>
+          Buttercup takes her game.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`<Episode /> Episode matches snapshot with origin image 1`] = `
+<body>
+  <div>
+    <div
+      class="Episode"
+    >
+      <button
+        class="Episode__backButton"
+      >
+        Back to list
+      </button>
+      <h1>
+        Mini Golf Madness
+      </h1>
+      <img
+        alt="Mini Golf Madness"
+        src="https://static.tvmaze.com/uploads/images/original_untouched/115/288994.jpg"
+      />
+      <div
+        class="Episode__description"
+      >
+        <p>
+          Buttercup takes her game.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+`;

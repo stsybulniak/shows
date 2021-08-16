@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorOrLoading /> ErrorOrLoading shows Error component 1`] = `
+<body>
+  <div>
+    <h3>
+      Some error
+    </h3>
+  </div>
+</body>
+`;
+
+exports[`<ErrorOrLoading /> ErrorOrLoading shows Loading component 1`] = `
+<body>
+  <div>
+    <h4>
+      Loading...
+    </h4>
+  </div>
+</body>
+`;
+
+exports[`<ErrorOrLoading /> ErrorOrLoading shows child component 1`] = `
+<body>
+  <div>
+    Some child
+  </div>
+</body>
+`;

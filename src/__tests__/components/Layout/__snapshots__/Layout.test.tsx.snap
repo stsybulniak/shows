@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Layout /> Layout matches snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="Layout"
+    >
+      <header
+        class="Header"
+      >
+        Header
+      </header>
+      <main
+        class="Layout__main"
+      >
+        <div
+          class="Layout__main-content"
+        >
+          <b>
+            Layout content
+          </b>
+        </div>
+        <footer
+          class="Footer"
+        >
+          Footer
+        </footer>
+      </main>
+    </div>
+  </div>
+</body>
+`;
